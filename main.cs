@@ -14,7 +14,6 @@ class MainClass {
   public static void Main (string[] args) {
     Console.WriteLine ("Hello World");
   }
-
   public ListNode DeleteDuplicates(ListNode head) {
         ListNode current=head;
         while(current!=null && current.next!=null){
